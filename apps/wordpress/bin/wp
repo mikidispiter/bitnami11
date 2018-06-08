@@ -1,0 +1,6 @@
+#!/bin/bash
+. /Users/mikidispiter/data/bitnami1/scripts/setenv.sh
+export WP_CLI_CONFIG_PATH="/Users/mikidispiter/data/bitnami1/apps/wordpress/bin/wp-cli.yml"
+export WP_CLI_PHP_USED="/Users/mikidispiter/data/bitnami1/php/bin/php"
+
+exec "/Users/mikidispiter/data/bitnami1/php/bin/php" "/Users/mikidispiter/data/bitnami1/apps/wordpress/bin/wp-cli.phar" "$@"

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /Users/mikidispiter/data/bitnami1/scripts/setenv.sh
+
+exec /Users/mikidispiter/data/bitnami1/common/bin/.mogrify.bin  "$@"

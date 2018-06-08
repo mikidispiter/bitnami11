@@ -1,0 +1,6 @@
+#!/bin/sh
+
+. /Users/mikidispiter/data/bitnami1/scripts/setenv.sh
+SASL_PATH="/Users/mikidispiter/data/bitnami1/common/lib/sasl2"
+                export SASL_PATH
+exec /Users/mikidispiter/data/bitnami1/common/sbin/.testsaslauthd.bin -f "/Users/mikidispiter/data/bitnami1/common/etc/sasldb2" "$@"

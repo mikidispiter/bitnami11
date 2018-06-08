@@ -1,0 +1,6 @@
+#!/bin/sh
+PHPRC=/Users/mikidispiter/data/bitnami1/php/etc
+export PHPRC
+
+. /Users/mikidispiter/data/bitnami1/php/../scripts/setenv.sh
+exec /Users/mikidispiter/data/bitnami1/php/bin/php-cgi.bin "$@"

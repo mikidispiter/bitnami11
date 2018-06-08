@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /Users/mikidispiter/data/bitnami1/scripts/setenv.sh
+
+exec /Users/mikidispiter/data/bitnami1/php/sbin/.php-fpm.bin -y /Users/mikidispiter/data/bitnami1/php/etc/php-fpm.conf -p /Users/mikidispiter/data/bitnami1/php/var/ -c /Users/mikidispiter/data/bitnami1/php/etc/php.ini "$@"

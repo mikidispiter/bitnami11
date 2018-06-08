@@ -1,0 +1,8 @@
+#!/bin/sh
+
+PATH="/Users/mikidispiter/data/bitnami1/apps/wordpress/bin:/Users/mikidispiter/data/bitnami1/varnish/bin:/Users/mikidispiter/data/bitnami1/sqlite/bin:/Users/mikidispiter/data/bitnami1/php/bin:/Users/mikidispiter/data/bitnami1/mysql/bin:/Users/mikidispiter/data/bitnami1/apache2/bin:/Users/mikidispiter/data/bitnami1/common/bin:$PATH"
+BITNAMI_ROOT="/Users/mikidispiter/data/bitnami1"
+export BITNAMI_ROOT
+
+
+exec /bin/bash --noprofile --norc
